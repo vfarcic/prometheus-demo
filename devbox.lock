@@ -97,6 +97,54 @@
         }
       }
     },
+    "gojsontoyaml@0.1.0": {
+      "last_modified": "2024-03-22T11:26:23Z",
+      "resolved": "github:NixOS/nixpkgs/a3ed7406349a9335cb4c2a71369b697cecd9d351#gojsontoyaml",
+      "source": "devbox-search",
+      "version": "0.1.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/sw9sb0b0v4b2hcifz52ym5p6f514a73l-gojsontoyaml-0.1.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/sw9sb0b0v4b2hcifz52ym5p6f514a73l-gojsontoyaml-0.1.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/7hzx2fzc259k8y98fjdshbvgvsg7qp0g-gojsontoyaml-0.1.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/7hzx2fzc259k8y98fjdshbvgvsg7qp0g-gojsontoyaml-0.1.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/3pznq3jng5zzjg2qsxp7ahcb6ayc0pxf-gojsontoyaml-0.1.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/3pznq3jng5zzjg2qsxp7ahcb6ayc0pxf-gojsontoyaml-0.1.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/kjh8xlshv7y5410jz9zn0vglj844lriw-gojsontoyaml-0.1.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/kjh8xlshv7y5410jz9zn0vglj844lriw-gojsontoyaml-0.1.0"
+        }
+      }
+    },
     "jsonnet-bundler@0.5.1": {
       "last_modified": "2024-03-22T11:26:23Z",
       "resolved": "github:NixOS/nixpkgs/a3ed7406349a9335cb4c2a71369b697cecd9d351#jsonnet-bundler",
@@ -142,6 +190,70 @@
             }
           ],
           "store_path": "/nix/store/7y21yj7h9wq6ddl1y72v77430y5591ca-jsonnet-bundler-0.5.1"
+        }
+      }
+    },
+    "jsonnet@0.20.0": {
+      "last_modified": "2024-03-23T22:08:43Z",
+      "resolved": "github:NixOS/nixpkgs/e1d501922fd7351da4200e1275dfcf5faaad1220#jsonnet",
+      "source": "devbox-search",
+      "version": "0.20.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/2qy658vn3yh08l2mclyjzxpv5zbirhhg-jsonnet-0.20.0",
+              "default": true
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/013cy27h7241568nsgx0bsvf565yjpa4-jsonnet-0.20.0-doc"
+            }
+          ],
+          "store_path": "/nix/store/2qy658vn3yh08l2mclyjzxpv5zbirhhg-jsonnet-0.20.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/w8cb46kfj308g4h1b5qbhnfjpkvc0hcw-jsonnet-0.20.0",
+              "default": true
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/ri23pyvbgv4rjnsrdv9cvjmprvfpn520-jsonnet-0.20.0-doc"
+            }
+          ],
+          "store_path": "/nix/store/w8cb46kfj308g4h1b5qbhnfjpkvc0hcw-jsonnet-0.20.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/nsm5mamp9yanfxamy3jpim30p43684p1-jsonnet-0.20.0",
+              "default": true
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/62mhiqa9xk047yv5c456qqvniw79w33p-jsonnet-0.20.0-doc"
+            }
+          ],
+          "store_path": "/nix/store/nsm5mamp9yanfxamy3jpim30p43684p1-jsonnet-0.20.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/3ldy3svkn1j7g7czh2wba5kl7yvzrjjk-jsonnet-0.20.0",
+              "default": true
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/bkgf3v9r1awx2sad8x3y90mwrs6z30wi-jsonnet-0.20.0-doc"
+            }
+          ],
+          "store_path": "/nix/store/3ldy3svkn1j7g7czh2wba5kl7yvzrjjk-jsonnet-0.20.0"
         }
       }
     },
