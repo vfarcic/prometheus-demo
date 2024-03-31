@@ -6,7 +6,8 @@
     "bat@0.24.0",
     "jsonnet-bundler@0.5.1",
     "gojsontoyaml@0.1.0",
-    "jsonnet@0.20.0"
+    "jsonnet@0.20.0",
+    "jq@1.7.1"
   ],
   "shell": {
     "init_hook": [
