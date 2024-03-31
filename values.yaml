@@ -1,12 +1,12 @@
 grafana:
   ingress:
     enabled: true
-    ingressClassName: traefik
+    ingressClassName: nginx
     hosts:
-      - grafana.35.237.179.126.nip.io
+      - grafana.127.0.0.1.nip.io
 prometheus:
   ingress:
     enabled: true
-    ingressClassName: traefik
+    ingressClassName: nginx
     hosts:
-      - prometheus.35.237.179.126.nip.io
+      - prometheus.127.0.0.1.nip.io

@@ -7,7 +7,9 @@
     "jsonnet-bundler@0.5.1",
     "gojsontoyaml@0.1.0",
     "jsonnet@0.20.0",
-    "jq@1.7.1"
+    "jq@1.7.1",
+    "yq-go@4.43.1",
+    "kubernetes-helm@3.14.3"
   ],
   "shell": {
     "init_hook": [
